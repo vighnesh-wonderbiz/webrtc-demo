@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    video{
+        width: 50%;
+        border: solid white;
+        margin: 1rem;
+    }
+</style>
+<body>
+    <div style="display: flex; flex-wrap: wrap;">
+        <video id="video-1" autoplay plays-inline ></video>
+        <video id="video-2" autoplay plays-inline ></video>
+    </div>
+    <div style="display: flex;">
+        <button id="create-offer">Create offer</button>
+        <textarea id="offer-sdp"></textarea>
+    </div>
+    <div style="display: flex;">
+        <button id="create-answer">Create answer</button>
+        <textarea id="answer-sdp"></textarea>
+    </div>
+
+    <button id="add-answer">Add Answer</button>
+</body>
+<script src="./main.js"></script>
+</html>
